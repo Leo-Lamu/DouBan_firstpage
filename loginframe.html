@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录/注册</title>
+    <link rel="stylesheet" href="/css/loginframe.css">
+
+</head>
+<body>
+    <div class="container">
+        <!-- 短信登录/注册/密码登录 -->
+        <div class="login ">
+            <!-- 切换菜单 -->
+            <div class="switch_menu clearfix">
+                <span class="left selected">
+                    短信登录/注册
+                </span>
+                <span class="right ">
+                    密码登录
+                </span>
+            </div>
+            <!-- 切换菜单下方内容 -->
+            <form action="" class="form">
+                <!-- 短信登录/注册 -->
+                <div  class="">
+                    <div class="form-item">
+                        <p class="txt">
+                            登录注册表示同意
+                            <a href="">豆瓣使用协议,隐私政策</a>
+                        </p>
+                    </div>
+                    <div class="form-item">
+                        <input type="text" class="more-text-indent" placeholder="手机号">
+                        <div class="national-code">
+                            <div>
+                                +86
+                            </div>
+                            <div class="codes hidden">
+                                <div class="center">
+                                    <div class="title">
+                                        选择国际序号
+                                    </div>
+                                    <ul>
+                                        <li class="clearfix"><span class="left">国家名</span><span class="right">+1</span></li>
+                                        <li class="clearfix"><span class="left">国家名</span><span class="right">+2</span></li>
+                                        <li class="clearfix selected"><span class="left">国家名</span>
+                                            <span class="left iconfont icon-zhengque"></span>
+                                            <span class="right">+3</span></li>
+                                        <li class="clearfix"><span class="left">国家名</span><span class="right">+4</span></li>
+                                        <li class="clearfix"><span class="left">国家名</span><span class="right">+5</span></li>
+                                        <li class="clearfix"><span class="left">国家名</span><span class="right">+6</span></li>
+                                        <li class="clearfix"><span class="left">国家名</span><span class="right">+7</span></li>
+                                        <li class="clearfix"><span class="left">国家名</span><span class="right">+8</span></li>
+                                        <li class="clearfix"><span class="left">国家名</span><span class="right">+9</span></li>
+                                        <li class="clearfix"><span class="left">国家名</span><span class="right">+10</span></li>
+                                        <li class="clearfix"><span class="left">国家名</span><span class="right">+11</span></li>
+                                        <li class="clearfix"><span class="left">国家名</span><span class="right">+12</span></li>
+                                        <li class="clearfix"><span class="left">国家名</span><span class="right">+13</span></li>
+                                        <li class="clearfix"><span class="left">国家名</span><span class="right">+14</span></li>
+                                        <li class="clearfix"><span class="left">国家名</span><span class="right">+15</span></li>
+                                        <li class="clearfix"><span class="left">国家名</span><span class="right">+16</span></li>
+                                        <li class="clearfix"><span class="left">国家名</span><span class="right">+17</span></li>
+                                        <li class="clearfix"><span class="left">国家名</span><span class="right">+18</span></li>
+                                        <li class="clearfix"><span class="left">国家名</span><span class="right">+19</span></li>
+                                        <li class="clearfix"><span class="left">国家名</span><span class="right">+20</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <input type="text" placeholder="验证码">
+                        <a href="" class="ab-right">
+                            获取验证码
+                        </a>
+                    </div>
+                    <div class="form-item">
+                        <button class="btn">登录豆瓣</button>
+                    </div>
+                    <div class="form-item tip clearfix">
+                        <label class="left">
+                            <input type="checkbox">
+                            下次自动登录
+                        </label>
+                        <span class="right">
+                            <a href="">
+                                收不到验证码
+                            </a>
+                        </span>
+                    </div>
+                </div>
+                <!-- 密码登录 -->
+                <div class="hidden">
+                    <div class="form-item tip clearfix">
+                        <a href="" class="right">找回密码</a>
+                    </div>
+                    <div class="form-item">
+                        <input type="text" placeholder="手机号/邮箱">
+                    </div>
+                    <div class="form-item">
+                        <input type="password" placeholder="密码">
+                    </div>
+                    <div class="form-item">
+                        <button disabled class="btn">登录豆瓣</button>
+                    </div>
+                    <div class="form-item tip clearfix">
+                        <label class="left">
+                            <input type="checkbox">
+                            下次自动登录
+                        </label>
+                        <span class="right">
+                            <a href="">
+                                海外手机登录
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </form>
+            <!-- 第三方登录 -->
+            <div class="button ">
+                <span class="msg">第三方登录:</span>
+                <i class="iconfont icon-weixin"></i>
+                <i class="iconfont icon-shejiaotubiao-06"></i>
+            </div>
+        </div>
+        <!-- 扫码登录 -->
+        <div class="qrcode hidden">
+            <div class="title">二维码登录</div>
+            <div class="code">
+                <img src="img/qrcode.png" alt="登录二维码">
+            </div>
+            <div class="tip">
+                请打开豆瓣客户端扫一扫
+            </div>
+        </div>
+        <!-- 右上角图标 -->
+        <div class="change ">
+            <!-- 通过类名切换图标 -->
+            <!-- <i class="icon icon-qrcode"></i> -->
+            <i class="icon icon-pc"></i>
+        </div>
+        <!-- 提示 -->
+        <div class="pointer hidden">
+            扫码登录
+        </div>
+    </div>
+</body>
+</html>
